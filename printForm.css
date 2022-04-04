@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#form{
+	padding: 1rem;
+	background-color: cyan;
+	line-height: ;
+	width: 30%;
+	margin: auto;
+	margin-top: rem;
+	border-radius: ;
+}
+
+#head{
+	margin: ;
+	margin-left: 30%;
+	font-family: papyrus;
+}
+
+#fill{
+	background-color: ;
+}
+
+form{
+	background-color: ;
+	width: auto;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+
+.each{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 1.5rem;
+	border-radius: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 2rem;
+	border-style: dotted;
+}
+
+.gender{
+	height: auto;
+	width: 80%;
+}
+
+#message{
+	height: 3rem;
+	width: 	;
+}
+
+
+
+.output{
+	background-color: yellow;
+	margin-top: 5rem;
+	padding-left: 2%;
+	padding-right: 2%;
+	position: absolute;
+	line-height: 2rem;
+
+	/* width: fit-content;*/
+}
+

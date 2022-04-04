@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Player data</title>
+	<link rel="stylesheet" type="text/css" href="printForm.css">
+</head>
+<body>
+<div id="form">
+	<div id="fill">
+		<h1 id="head">New entries</h1>
+		<form>
+			<input class="each" type="text" id="fname" name="firstname" placeholder="firstname"> <br>
+			<input class="each" type="text" id="sname" name="lastname" placeholder="lastname"> <br>
+			<input class="each" type="text" id="address" name="address" placeholder="address"> <br>
+			<select class="each" class="gender" id="gender">
+					<option value="male"> male <span style="background-color: #483C32"></option>
+					<option value="female">female <span style="background-color: #483C32"></option>
+			</select> <br>
+			<input class="each" type="text" id="phone" name="phonenumber" placeholder="phone number"> <br>
+
+			<input class="each" class="message" id="message" type="text" name="message" placeholder="leave a message"> <br>
+		</form>
+		<button type="button" id="submit" onclick="display()">Submit</button>
+	</div>
+	
+	
+</div>
+
+<div id="output" class="output">
+<h2 id="result"></h2>
+
+	<p id="fn"></p>
+	<p id="sn"></p>
+	<p id="addy"></p>
+	<p id="sex"></p>
+	<p id="number"></p>
+	<p id="msg"></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// let details = [getElementsByName('firstname'), getElementsByName('lastname'), getElementsByName('address'), getElementsByTagName('select'), getElementsByName('phonenumber'), getElementsByName('message')];
+	const firstName = document.getElementById('fname');
+	const secondName = document.getElementById('sname');
+	const address = document.getElementById('address');
+	const gender = document.getElementById('gender');
+	const phonenumber = document.getElementById('phone');
+	const message = document.getElementById('message');
+	const output = document.querySelector('.output');
+	
+	// let secondName = document.getElementsByName('secondname');
+	function display() {
+		fn.innerHTML = "Firstname:" + " " + firstName.value;
+		sn.innerHTML = "Secondname:" + " " + secondName.value;
+		addy.innerHTML = "Address:" + " " + address.value;
+		sex.innerHTML = "Gender:" + " " + gender.value;
+		number.innerHTML = "PhoneNumber:" + " " + phonenumber.value;
+		msg.innerHTML = "Message:" + " " + message.value;
+		result.innerHTML = "Result";
+	}
+	//you can also pick elements by - document.getElementsByTagName.innerHTML
+	//Submit function - Let the submit display the inputs on the page
+</script>
+
+
+
+
+
+
+</body>
+</html>
